@@ -12,6 +12,6 @@ if __name__ == "__main__":
     xdata, ydata = load_2col("ICF_labs_SSC_data//initial_data.csv") #load data
     plt.plot(xdata,ydata)   #plot data
     plt.grid(True)
-    plt.xlabel("Pixels")
-    plt.ylabel("Gray Value")
+    plt.xlabel("Pixels", fontsize=15)
+    plt.ylabel("Gray Value", fontsize=15)
     plt.show()
